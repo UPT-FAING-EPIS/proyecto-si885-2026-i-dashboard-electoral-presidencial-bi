@@ -10,19 +10,21 @@
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto *{Nombre de Proyecto}***
+**Proyecto *Dashboard de análisis electoral y evaluación de planes de gobierno - Perú 2021***
 
-Curso: *{Nombre de Asignatura}*
+Curso: *Inteligencia de Negocios*
 
-Docente: *{Nombre de Docente}*
+Docente: *Mag. Patrick Jose Cuadros Quiroga*
 
 Integrantes:
 
-***{Apellidos y nombres del estudiante (código universitario)}***
+***Chura Ticona, Mary Luz        (2019065163)***
+***Diego Chara Apaza			 (2019065026)***
+
 
 **Tacna – Perú**
 
-***{Año}***
+***2026***
 
 **  
 **
