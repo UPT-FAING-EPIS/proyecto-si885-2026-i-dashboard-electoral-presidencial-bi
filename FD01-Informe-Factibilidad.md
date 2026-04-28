@@ -90,11 +90,22 @@ Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2
 
     1.3. Descripción
 
-        En que consiste el proyecto/importancia del mismo, contexto en que se va desenvolver
+        El presente proyecto consiste en el desarrollo de un dashboard interactivo de análisis electoral y evaluación de planes de gobierno, basado en las Elecciones Generales del Perú 2021. La solución busca integrar, organizar y visualizar información electoral relevante, permitiendo analizar resultados, comparar candidatos presidenciales y evaluar sus principales propuestas de gobierno.
+
+        El dashboard permitirá representar datos como votos obtenidos por candidato, distribución porcentual de resultados, comparación de propuestas por sectores y análisis de viabilidad según criterios como impacto, costo estimado y alineación con necesidades sociales. De esta manera, se busca transformar información electoral dispersa en una herramienta visual, clara y útil para la toma de decisiones.
+
+        Asimismo, el proyecto incorporará información relacionada con los planes de gobierno de los principales candidatos presidenciales, clasificando sus propuestas en sectores como educación, salud, economía, seguridad e infraestructura. Esta clasificación permitirá comparar de forma objetiva las prioridades de cada candidato.
+
+        El sistema estará orientado a estudiantes, ciudadanos, analistas y usuarios interesados en comprender mejor el proceso electoral peruano, brindando una plataforma que facilite la interpretación de datos políticos y electorales mediante gráficos, indicadores y reportes visuales.
+        En resumen, el proyecto representa una solución tecnológica enfocada en el análisis de datos electorales, la transparencia de la información y la comparación estructurada de planes de gobierno, contribuyendo al fortalecimiento de la cultura democrática y la toma de decisiones informadas.
+
 
     1.4. Objetivos
 
         1.4.1 Objetivo general
+
+        - Desarrollar un dashboard interactivo de análisis electoral y evaluación de planes de gobierno basado en las Elecciones Generales del Perú 2021, que permita visualizar resultados, comparar candidatos y analizar la viabilidad de sus propuestas mediante indicadores gráficos y métricas de evaluación.
+        
         1.4.2 Objetivos Específicos
             Para cada objetivo específico se indicara que se va a lograr
 
