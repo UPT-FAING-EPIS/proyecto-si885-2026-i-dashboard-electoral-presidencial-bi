@@ -77,15 +77,16 @@ Versión *{1.0}*
 
 1. <span id="_Toc52661346" class="anchor"></span>**Descripción del Proyecto**
 
-    1.1. Nombre del proyecto
+### 1.1 Nombre del proyecto
+Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2021
 
-        Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2021
+### 1.2 Duración del proyecto
 
-    1.2. Duración del proyecto
-            - Fecha de inicio: 13 de abril del 2026  
-            - Fecha de finalización: 13 de julio del 2026  
-            - Duración estimada: 3 meses
+- Fecha de inicio: 13 de abril del 2026  
+- Fecha de finalización: 13 de julio del 2026  
+- Duración estimada: 3 meses  
 
+### 1.3 Descripción 
 
     1.3. Descripción
 
