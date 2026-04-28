@@ -144,6 +144,8 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 1. <span id="_Toc52661346" class="anchor"></span>**Introducción** 
 
+## 1. INTRODUCCIÓN
+
 En la actualidad, el acceso a la información electoral es fundamental para la toma de decisiones informadas por parte de los ciudadanos. Sin embargo, en el Perú, la información relacionada con los procesos electorales y los planes de gobierno suele encontrarse dispersa en múltiples fuentes, lo que dificulta su análisis y comprensión.
 
 En este contexto, surge la necesidad de implementar soluciones tecnológicas que permitan organizar, visualizar y analizar esta información de manera clara y accesible. El presente documento propone el desarrollo de un sistema de dashboard de análisis electoral orientado a facilitar la comparación de candidatos y sus propuestas.
