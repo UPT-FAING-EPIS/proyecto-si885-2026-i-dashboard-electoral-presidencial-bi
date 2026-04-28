@@ -10,19 +10,21 @@
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto *{Nombre de Proyecto}***
+**Proyecto *“Dashboard de análisis electoral y evaluación de planes de gobierno - Perú 2021” ***
 
-Curso: *{Nombre de Asignatura}*
+Curso: *Inteligencia de Negocios *
 
-Docente: *{Nombre de Docente}*
+Docente: *Mag. Patrick Jose Cuadros Quiroga*
 
 Integrantes:
 
-***{Apellidos y nombres del estudiante (código universitario)}***
+
+***Chura Ticona, Mary Luz        (2019065163)***
+***Diego Chara Apaza			 (2019065026)***
 
 **Tacna – Perú**
 
-***{Año}***
+***2026***
 
 **  
 **
@@ -140,7 +142,13 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 **<u>Informe de Visión</u>**
 
-1. <span id="_Toc52661346" class="anchor"></span>**Introducción**
+1. <span id="_Toc52661346" class="anchor"></span>**Introducción** 
+
+En la actualidad, el acceso a la información electoral es fundamental para la toma de decisiones informadas por parte de los ciudadanos. Sin embargo, en el Perú, la información relacionada con los procesos electorales y los planes de gobierno suele encontrarse dispersa en múltiples fuentes, lo que dificulta su análisis y comprensión.
+
+En este contexto, surge la necesidad de implementar soluciones tecnológicas que permitan organizar, visualizar y analizar esta información de manera clara y accesible. El presente documento propone el desarrollo de un sistema de dashboard de análisis electoral orientado a facilitar la comparación de candidatos y sus propuestas.
+
+A lo largo de este documento se describen los objetivos, alcance, usuarios, características y beneficios del sistema, con el fin de establecer una visión clara del proyecto y su impacto en el análisis de datos electorales.
 
     1.1	Propósito
 
