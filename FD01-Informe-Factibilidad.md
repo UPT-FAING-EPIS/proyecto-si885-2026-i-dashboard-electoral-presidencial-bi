@@ -148,7 +148,11 @@ Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2
             Con respecto a los recursos tecnológicos requeridos para el desarrollo del proyecto de dashboard de análisis electoral, se consideran los siguientes componentes de hardware y software necesarios para la recopilación, procesamiento y visualización de datos.
             
             
-            ![Software](./media/software.png)
+       
+  <img src="./media/software.png" width="500"/>
+</p>
+
+<p align="center"><em>Figura: Herramientas de software utilizadas</em></p>
             
             
 
