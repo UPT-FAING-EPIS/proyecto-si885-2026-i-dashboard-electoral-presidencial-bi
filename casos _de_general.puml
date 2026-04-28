@@ -1,0 +1,50 @@
+@startuml
+title Diagrama de Casos de Uso - Dashboard de Análisis Electoral
+
+left to right direction
+skinparam dpi 200
+skinparam defaultFontSize 13
+skinparam linetype ortho
+
+actor "Usuario General" as Usuario
+actor "Analista de Datos" as Analista
+actor "Administrador" as Admin
+
+rectangle "Sistema Dashboard Electoral" {
+
+  usecase "RF01\nVisualizar resultados\nelectorales" as RF01
+  usecase "RF02\nFiltrar información" as RF02
+  usecase "RF03\nConsultar planes\nde gobierno" as RF03
+  usecase "RF05\nComparar candidatos" as RF05
+  usecase "RF09\nGenerar reportes" as RF09
+
+  usecase "RF04\nClasificar propuestas" as RF04
+  usecase "RF06\nGenerar indicadores" as RF06
+  usecase "RF08\nEvaluar impacto y\nviabilidad" as RF08
+
+  usecase "RF07\nInteractuar con\ndashboard" as RF07
+}
+
+Usuario -right-> RF01
+Usuario -right-> RF02
+Usuario -right-> RF03
+Usuario -right-> RF05
+Usuario -right-> RF09
+
+Analista -left-> RF04
+Analista -left-> RF06
+Analista -left-> RF08
+Analista -left-> RF01
+Analista -left-> RF05
+
+Admin -left-> RF04
+Admin -left-> RF06
+
+RF02 .down.> RF07 : <<extend>>
+RF05 .down.> RF01 : <<include>>
+RF05 .down.> RF03 : <<include>>
+RF06 .up.> RF02 : <<include>>
+RF08 .down.> RF04 : <<include>>
+RF09 .down.> RF05 : <<include>>
+
+@enduml

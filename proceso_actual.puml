@@ -1,0 +1,36 @@
+@startuml
+title Diagrama de Paquetes - Dashboard de Análisis Electoral
+
+top to bottom direction
+scale 1.5
+
+package "Gestión de Datos" {
+  [Carga de datos electorales]
+  [Carga de planes de gobierno]
+  [Validación de datos]
+}
+
+package "Análisis Electoral" {
+  [Visualización de resultados]
+  [Filtrado de información]
+  [Indicadores electorales]
+}
+
+package "Evaluación de Propuestas" {
+  [Consulta de planes de gobierno]
+  [Clasificación por sectores]
+  [Evaluación de impacto y viabilidad]
+}
+
+package "Reportes y Visualización" {
+  [Dashboard interactivo]
+  [Comparación de candidatos]
+  [Generación de reportes]
+}
+
+"Gestión de Datos" --> "Análisis Electoral"
+"Gestión de Datos" --> "Evaluación de Propuestas"
+"Análisis Electoral" --> "Reportes y Visualización"
+"Evaluación de Propuestas" --> "Reportes y Visualización"
+
+@enduml

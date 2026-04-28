@@ -1,0 +1,33 @@
+@startuml
+title Diagrama Detallado CU01 - Visualizar resultados electorales
+
+top to bottom direction
+skinparam dpi 200
+skinparam defaultFontSize 14
+skinparam linetype ortho
+
+actor "Usuario General" as Usuario
+actor "Analista de Datos" as Analista
+
+' Caso principal arriba
+usecase "CU01\nVisualizar resultados electorales" as CU01
+
+' Subprocesos en columna
+usecase "Acceder al dashboard" as UC1
+usecase "Seleccionar sección de resultados" as UC2
+usecase "Cargar datos electorales" as UC3
+usecase "Mostrar gráficos interactivos" as UC4
+usecase "Analizar información" as UC5
+
+' Actores
+Usuario --> CU01
+Analista --> CU01
+
+' Flujo vertical limpio
+CU01 --> UC1 : <<include>>
+UC1 --> UC2
+UC2 --> UC3
+UC3 --> UC4
+UC4 --> UC5
+
+@enduml
