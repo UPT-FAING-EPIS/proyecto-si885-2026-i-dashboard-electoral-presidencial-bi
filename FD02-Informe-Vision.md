@@ -142,7 +142,7 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 **<u>Informe de Visión</u>**
 
-1. <span id="_Toc52661346" class="anchor"></span>**Introducción** 
+1. <span id="_Toc52661346" class="anchor"></span>
 
 ## 1. INTRODUCCIÓN
 
@@ -152,15 +152,42 @@ En este contexto, surge la necesidad de implementar soluciones tecnológicas que
 
 A lo largo de este documento se describen los objetivos, alcance, usuarios, características y beneficios del sistema, con el fin de establecer una visión clara del proyecto y su impacto en el análisis de datos electorales.
 
-    1.1	Propósito
+### 1.1 Propósito
 
-    1.2	Alcance
+El propósito de este documento es definir una visión clara y estructurada del sistema Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2021, estableciendo sus objetivos, funcionalidades, alcance y beneficios esperados.
 
-    1.3	Definiciones, Siglas y Abreviaturas
+Asimismo, busca servir como guía para el desarrollo del sistema, permitiendo que todos los involucrados tengan una comprensión común del proyecto y sus alcances.
 
-    1.4	Referencias
+### 1.2 Alcance
 
-    1.5	Visión General
+El sistema contempla el desarrollo de un dashboard interactivo que permitirá a los usuarios visualizar resultados electorales, comparar candidatos y analizar sus propuestas de gobierno.
+
+El sistema incluirá funcionalidades como:
+- Visualización de resultados electorales
+- Comparación de propuestas por sector
+- Análisis de impacto y viabilidad
+- Generación de reportes
+
+No se contempla la integración con sistemas oficiales en tiempo real ni el uso de datos sensibles, ya que el proyecto se desarrolla en un entorno académico.
+
+### 1.3 Definiciones, Siglas y Abreviaturas
+
+- Dashboard: Herramienta visual que permite representar datos mediante gráficos e indicadores
+- BI: Business Intelligence (Inteligencia de Negocios)
+- ONPE: Oficina Nacional de Procesos Electorales
+- Dataset: Conjunto de datos organizados para su análisis
+
+### 1.4 Referencias
+
+El presente documento se basa en el informe de factibilidad desarrollado previamente, así como en información proveniente de fuentes oficiales como la ONPE y portales de datos abiertos relacionados con las Elecciones Generales del Perú 2021.
+
+### 1.5 Visión General
+
+El sistema Dashboard de análisis electoral es una herramienta digital orientada a mejorar el acceso y comprensión de la información electoral en el Perú.
+
+Su finalidad es proporcionar una plataforma que permita analizar resultados, comparar candidatos y evaluar propuestas de gobierno de manera clara y visual.
+
+A través de esta solución, se busca fortalecer la transparencia, facilitar el análisis de datos y promover una toma de decisiones informada.
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
