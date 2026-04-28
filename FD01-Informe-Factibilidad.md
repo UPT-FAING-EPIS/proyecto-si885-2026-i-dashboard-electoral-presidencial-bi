@@ -31,7 +31,7 @@ Integrantes:
 </center>
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-Sistema *{Nombre del Sistema}*
+Sistema *Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2021*
 
 Informe de Factibilidad
 
@@ -94,8 +94,16 @@ Versión *{1.0}*
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
 2. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
-
-    Señale los riesgos que pudieran afectar el éxito del proyecto.}*
+ ●	Dificultad para encontrar información completa y ordenada sobre los planes de gobierno.
+●	Posible inconsistencia entre las fuentes de información electoral consultadas.
+●	Retrasos en la limpieza y estructuración de los datos.
+●	Errores en la clasificación de propuestas por sector.
+●	Limitaciones técnicas en el diseño del dashboard.
+●	Falta de experiencia del equipo en herramientas de visualización de datos.
+●	Riesgo de interpretar de forma subjetiva las propuestas políticas.
+●	Dificultad para estimar costos reales de algunas propuestas de gobierno.
+●	Posibles problemas al publicar el dashboard en un entorno web o repositorio público.
+*
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
@@ -103,11 +111,38 @@ Versión *{1.0}*
 
     3.1. Planteamiento del problema
 
-            Describa antecedentes y situación actual, explicando la problemática y/o necesidad que será resuelta con el proyecto propuesto.
+            En el Perú, la información electoral y los planes de gobierno suelen encontrarse distribuidos en diferentes fuentes, documentos oficiales, portales institucionales y medios digitales. Esta dispersión dificulta que los ciudadanos puedan analizar de manera rápida y clara las propuestas de los candidatos presidenciales.
+            Durante las Elecciones Generales del Perú 2021, los ciudadanos tuvieron acceso a diversos planes de gobierno; sin embargo, estos documentos suelen ser extensos, técnicos y poco comparables entre sí. Esto limita la capacidad de los electores para identificar diferencias entre candidatos, prioridades de gobierno y niveles de viabilidad de las propuestas.
+            Asimismo, los resultados electorales suelen presentarse en plataformas oficiales, pero muchas veces no se integran con el análisis de propuestas o indicadores de impacto. Por ello, existe la necesidad de una herramienta que combine visualización electoral, comparación de candidatos y evaluación de planes de gobierno en un solo entorno.
+            En este contexto, se propone desarrollar un dashboard de análisis electoral y evaluación de planes de gobierno basado en las Elecciones Generales del Perú 2021, con el objetivo de facilitar la interpretación de datos, fortalecer la transparencia informativa y promover una toma de decisiones más informada.
+
+
 
     3.2. Consideraciones de hardware y software
 
-            Hardware y software posibles para la implementación, se analizara lo que existe y es alcanzable, se evaluara que tecnología se puede > utilizar en el proyecto.
+            Con respecto a los recursos tecnológicos requeridos para el desarrollo del proyecto de dashboard de análisis electoral, se consideran los siguientes componentes de hardware y software necesarios para la recopilación, procesamiento y visualización de datos.
+
+            Aspecto	Nombre	Cantidad
+            Hardware	Procesador i5-7th	2
+                Memoria RAM  8GB o más 	2
+                Almacenamiento 500 GB o más	2
+                Procesador: 1:8 GHz o más (2 núcleo o más)	2
+                Computadores personales para el manejo de información hacia el sistema.  	2
+                Conexión a Internet  	1
+                    
+            Software	Sistema Operativo: La versión de paga del Sistema Operativo Windows 10 o superior. 
+                2
+                Power BI / Tableau (herramienta de visualización)
+                2
+                Python (opcional para análisis de datos)	2
+                Visual Studio Code (IDE)	2
+                Git (control de versiones)
+                2
+                Terraform (infraestructura como código)	2
+                
+            Servicios Cloud (AWS / Azure / GCP)
+                2 
+
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
@@ -126,16 +161,26 @@ Versión *{1.0}*
 
     4.2. <span id="_Toc52661351" class="anchor"></span>Factibilidad Económica
 
-        El propósito del estudio de viabilidad económica, es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos.
-        Como se mencionó anteriormente en el estudio de factibilidad técnica wvaluar si la institución (departamento de TI) cuenta con las herramientas necesarias para la implantación del sistema y evaluar si la propuesta requiere o no de una inversión inicial en infraestructura informática.
-        Se plantearán los costos del proyecto.
-        Costeo del Proyecto: Consiste en estimar los costos de los recursos Humanos, materiales o consumibles y/o máquinas) directos para completar las actividades del proyecto}.*
+        El proyecto de dashboard de análisis electoral es técnicamente viable, ya que se basa en el uso de herramientas ampliamente utilizadas en el análisis y visualización de datos, como Power BI, Microsoft Excel y lenguajes de programación como Python.
+
+Estas tecnologías permiten la recopilación, procesamiento y representación gráfica de grandes volúmenes de información electoral de manera eficiente, facilitando la construcción de dashboards interactivos que permiten comparar candidatos, resultados y propuestas de gobierno.
+
+Asimismo, el desarrollo del sistema se realizará de manera progresiva, iniciando con la recopilación y limpieza de datos provenientes de fuentes oficiales como la ONPE, seguido de la estructuración de la información y finalmente la implementación de dashboards interactivos. Este enfoque incremental permite reducir riesgos técnicos y asegurar la correcta construcción del sistema.
+
+Desde el punto de vista de infraestructura, el proyecto puede ser desplegado utilizando servicios en la nube como AWS o Azure, mediante el uso de herramientas de infraestructura como código como Terraform, lo que permite automatizar la configuración del entorno, optimizar recursos y reducir costos operativos.
+
+En cuanto al entorno tecnológico, el sistema es viable debido a que las herramientas utilizadas son accesibles, cuentan con documentación amplia y no requieren infraestructura compleja para su implementación. Además, los usuarios finales están familiarizados con el uso de dashboards y plataformas digitales, lo que facilita la adopción del sistema.
+
+Finalmente, el proyecto no requiere el desarrollo de aplicaciones móviles ni el uso de tecnologías complejas como geolocalización o notificaciones en tiempo real, lo que reduce significativamente la complejidad técnica y aumenta su viabilidad.
+    *
 
         Definir los siguientes costos:
 
         4.2.1. Costos Generales
 
-                Los costos generales son todos los gastos realizados en accesorios y material de oficina y de uso diario, necesarios para los procesos, tales como, papeles, plumas, cartuchos de impresora, marcadores, computadora etc. Colocar tabla de costos.
+                El proyecto es económicamente viable, ya que no requiere una inversión elevada en infraestructura y utiliza herramientas accesibles para el desarrollo de dashboards y análisis de datos. Los costos están asociados principalmente a recursos operativos, ambiente tecnológico y personal.
+
+
 
         4.2.2. Costos operativos durante el desarrollo 
         
