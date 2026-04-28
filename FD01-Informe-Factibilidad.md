@@ -107,20 +107,27 @@ Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2
         - Desarrollar un dashboard interactivo de análisis electoral y evaluación de planes de gobierno basado en las Elecciones Generales del Perú 2021, que permita visualizar resultados, comparar candidatos y analizar la viabilidad de sus propuestas mediante indicadores gráficos y métricas de evaluación.
         
         1.4.2 Objetivos Específicos
-            Para cada objetivo específico se indicara que se va a lograr
+            - Recopilar y organizar información electoral de las Elecciones Generales del Perú 2021.
+            - Identificar a los principales candidatos presidenciales y sus propuestas de gobierno.
+            - Clasificar las propuestas por sectores como educación, salud, economía, seguridad e infraestructura.
+            - Diseñar indicadores que permitan evaluar el costo estimado, impacto y viabilidad de las propuestas.
+            - Implementar dashboards o reportes visuales que faciliten la comparación entre candidatos.
+            - Desarrollar una estructura de datos que permita alimentar los gráficos e indicadores del sistema.
+            - Publicar el proyecto en un entorno accesible para su revisión y presentación.
+
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
 2. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
- ●	Dificultad para encontrar información completa y ordenada sobre los planes de gobierno.
-●	Posible inconsistencia entre las fuentes de información electoral consultadas.
-●	Retrasos en la limpieza y estructuración de los datos.
-●	Errores en la clasificación de propuestas por sector.
-●	Limitaciones técnicas en el diseño del dashboard.
-●	Falta de experiencia del equipo en herramientas de visualización de datos.
-●	Riesgo de interpretar de forma subjetiva las propuestas políticas.
-●	Dificultad para estimar costos reales de algunas propuestas de gobierno.
-●	Posibles problemas al publicar el dashboard en un entorno web o repositorio público.
+ - Dificultad para encontrar información completa y ordenada sobre los planes de gobierno.
+- Posible inconsistencia entre las fuentes de información electoral consultadas.
+- Retrasos en la limpieza y estructuración de los datos.
+- Errores en la clasificación de propuestas por sector.
+- Limitaciones técnicas en el diseño del dashboard.
+- Falta de experiencia del equipo en herramientas de visualización de datos.
+- Riesgo de interpretar de forma subjetiva las propuestas políticas.
+- Dificultad para estimar costos reales de algunas propuestas de gobierno.
+- Posibles problemas al publicar el dashboard en un entorno web o repositorio público.
 *
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
@@ -139,27 +146,11 @@ Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2
     3.2. Consideraciones de hardware y software
 
             Con respecto a los recursos tecnológicos requeridos para el desarrollo del proyecto de dashboard de análisis electoral, se consideran los siguientes componentes de hardware y software necesarios para la recopilación, procesamiento y visualización de datos.
-
-            Aspecto	Nombre	Cantidad
-            Hardware	Procesador i5-7th	2
-                Memoria RAM  8GB o más 	2
-                Almacenamiento 500 GB o más	2
-                Procesador: 1:8 GHz o más (2 núcleo o más)	2
-                Computadores personales para el manejo de información hacia el sistema.  	2
-                Conexión a Internet  	1
-                    
-            Software	Sistema Operativo: La versión de paga del Sistema Operativo Windows 10 o superior. 
-                2
-                Power BI / Tableau (herramienta de visualización)
-                2
-                Python (opcional para análisis de datos)	2
-                Visual Studio Code (IDE)	2
-                Git (control de versiones)
-                2
-                Terraform (infraestructura como código)	2
-                
-            Servicios Cloud (AWS / Azure / GCP)
-                2 
+            
+            
+            ![./media/media/image1.png](./media/software.png)
+            
+            
 
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
