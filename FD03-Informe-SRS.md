@@ -305,7 +305,7 @@ El sistema automatiza el análisis mediante dashboards.
 ### 3. Modelo Lógico
 
 <p align="center">
-  <img src="./img/clases.png" width="500"/>
+  <img src="./media/Clases.png" width="500"/>
 </p>
 
 <p align="center"><em>Figura 5. Diagrama de clases</em></p>
@@ -316,13 +316,21 @@ El sistema automatiza el análisis mediante dashboards.
 
 ## CONCLUSIONES
 
-El sistema permite mejorar el análisis de información electoral mediante dashboards interactivos, facilitando la toma de decisiones.
+El desarrollo del sistema Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2021 permite centralizar información electoral y política en una plataforma visual e interactiva, facilitando el análisis de resultados, la comparación de candidatos y la evaluación de propuestas de gobierno.
+El sistema propuesto responde a la problemática identificada, ya que reduce la dispersión de información y mejora la comprensión de los datos mediante gráficos, filtros e indicadores dinámicos. Asimismo, permite que estudiantes, ciudadanos y analistas puedan acceder a información organizada para realizar análisis más claros y fundamentados.
+A través de la especificación de requerimientos, casos de uso, análisis de objetos y diagramas UML, se logró definir la estructura funcional y lógica del sistema, proporcionando una base sólida para su posterior implementación en herramientas de inteligencia de negocios como Power BI.
+Finalmente, el proyecto demuestra viabilidad técnica, operativa, económica, legal, social y ambiental, debido al uso de herramientas accesibles, datos públicos y una propuesta orientada al fortalecimiento de la transparencia informativa y la toma de decisiones informadas.
+
 
 ---
 
 ## RECOMENDACIONES
 
-Se recomienda continuar con el desarrollo del sistema y mejorar las visualizaciones.
+Se recomienda continuar con la implementación del dashboard priorizando las funcionalidades principales, como la visualización de resultados electorales, la comparación de candidatos y la consulta de planes de gobierno.
+También se recomienda validar la información utilizada con fuentes oficiales, como datos electorales publicados por organismos competentes y documentos oficiales de planes de gobierno, con el fin de garantizar la confiabilidad del análisis.
+Asimismo, se sugiere realizar pruebas con usuarios finales para evaluar la facilidad de uso del dashboard, la claridad de las visualizaciones y la utilidad de los filtros e indicadores implementados.
+Finalmente, se recomienda considerar futuras mejoras, como la incorporación de nuevos procesos electorales, mayor detalle por región, nuevos indicadores de análisis y opciones adicionales de exportación de reportes visuales.
+
 
 ---
 

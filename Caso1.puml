@@ -1,33 +1,41 @@
 @startuml
-title Diagrama Detallado CU01 - Visualizar resultados electorales
+title Diagrama de Despliegue - Dashboard Electoral Perú 2021
 
-top to bottom direction
 skinparam dpi 200
-skinparam defaultFontSize 14
+skinparam defaultFontSize 13
 skinparam linetype ortho
 
-actor "Usuario General" as Usuario
-actor "Analista de Datos" as Analista
+node "Usuario Final" {
+  artifact "Navegador Web"
+}
 
-' Caso principal arriba
-usecase "CU01\nVisualizar resultados electorales" as CU01
+node "Equipo de Desarrollo" {
+  artifact "Power BI Desktop"
+  artifact "Archivos Excel/CSV"
+  artifact "Scripts de limpieza\nPython/Excel"
+}
 
-' Subprocesos en columna
-usecase "Acceder al dashboard" as UC1
-usecase "Seleccionar sección de resultados" as UC2
-usecase "Cargar datos electorales" as UC3
-usecase "Mostrar gráficos interactivos" as UC4
-usecase "Analizar información" as UC5
+node "Repositorio de Datos" {
+  database "Dataset Electoral"
+  database "Planes de Gobierno"
+}
 
-' Actores
-Usuario --> CU01
-Analista --> CU01
+cloud "Servicio Web / Cloud" {
+  node "Power BI Service" {
+    artifact "Dashboard Publicado"
+    artifact "Reportes Visuales"
+  }
+}
 
-' Flujo vertical limpio
-CU01 --> UC1 : <<include>>
-UC1 --> UC2
-UC2 --> UC3
-UC3 --> UC4
-UC4 --> UC5
+"Archivos Excel/CSV" --> "Dataset Electoral"
+"Scripts de limpieza\nPython/Excel" --> "Dataset Electoral"
+"Scripts de limpieza\nPython/Excel" --> "Planes de Gobierno"
+
+"Dataset Electoral" --> "Power BI Desktop"
+"Planes de Gobierno" --> "Power BI Desktop"
+
+"Power BI Desktop" --> "Dashboard Publicado"
+"Dashboard Publicado" --> "Navegador Web"
+"Reportes Visuales" --> "Navegador Web"
 
 @enduml
