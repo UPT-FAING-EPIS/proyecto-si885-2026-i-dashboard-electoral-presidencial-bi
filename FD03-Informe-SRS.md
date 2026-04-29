@@ -276,7 +276,7 @@ El sistema automatiza el análisis mediante dashboards.
 
 ## V. FASE DE DESARROLLO
 
-### 1. Perfiles de Usuario
+### 5.1. Perfiles de Usuario
 
 <p align="center">
   <img src="./media/perfil.png" width="500"/>
@@ -284,13 +284,21 @@ El sistema automatiza el análisis mediante dashboards.
 
 ---
 
-### 2. Modelo Conceptual
+### 5.2. Modelo Conceptual
 
+#### 5.2.1. Diagrama de paquetes
 <p align="center">
-  <img src="./img/casos-uso.png" width="500"/>
+  <img src="./img/paquetes.png" width="500"/>
 </p>
 
-<p align="center"><em>Figura 4. Diagrama de casos de uso</em></p>
+<p align="center"><em>Figura 4. Diagrama de paquetes</em></p>
+
+#### 5.2.2. Diagrama de Casos de Usos
+<p align="center">
+  <img src="./img/casos de usos.png" width="500"/>
+</p>
+
+<p align="center"><em>Figura 5. Diagrama de casos de usos</em></p>
 
 ---
 
