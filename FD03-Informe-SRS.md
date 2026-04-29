@@ -250,33 +250,25 @@ El sistema automatiza el análisis mediante dashboards.
 
 ### b) Requerimientos No Funcionales
 
-| Código | Requerimiento | Descripción |
-|------|-------------|------------|
-| RNF01 | Usabilidad | Interfaz amigable |
-| RNF02 | Rendimiento | Carga rápida |
-| RNF03 | Disponibilidad | 24/7 |
-| RNF04 | Seguridad | Datos públicos |
-| RNF05 | Compatibilidad | Navegadores |
+<p align="center">
+  <img src="./media/no funcionales.png" width="500"/>
+</p>
 
 ---
 
 ### c) Requerimientos Funcionales Final
 
-| Código | Requerimiento | Descripción |
-|------|-------------|------------|
-| RF01 | Dashboard general | Resumen electoral |
-| RF02 | Comparación | Comparar candidatos |
-| RF03 | Análisis sectorial | Propuestas por sector |
-| RF04 | Filtros dinámicos | Interacción |
-| RF05 | Reportes | Generación de reportes |
+<p align="center">
+  <img src="./media/finales.png" width="500"/>
+</p>
 
 ---
 
 ### d) Reglas de Negocio
 
-- Uso de datos públicos  
-- Cada candidato tiene múltiples propuestas  
-- Cada propuesta pertenece a un sector  
+<p align="center">
+  <img src="./media/reglas.png" width="500"/>
+</p>  
 
 
 
@@ -286,9 +278,9 @@ El sistema automatiza el análisis mediante dashboards.
 
 ### 1. Perfiles de Usuario
 
-- Usuario general  
-- Analista  
-- Administrador  
+<p align="center">
+  <img src="./media/perfil.png" width="500"/>
+</p>  
 
 ---
 
