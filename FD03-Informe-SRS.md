@@ -70,9 +70,10 @@ Integrantes:
 
 ## INTRODUCCIÓN
 
-El presente documento describe la especificación de requerimientos del sistema *Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2021*. Este documento establece las funcionalidades, restricciones y características del sistema, con el propósito de servir como base para su diseño e implementación.
+El presente documento describe de manera detallada los requerimientos del sistema denominado Dashboard de análisis electoral y evaluación de planes de gobierno - Perú 2021. El objetivo del sistema es facilitar el análisis de información electoral mediante herramientas de inteligencia de negocios, específicamente a través de dashboards interactivos desarrollados en Power BI.
+Este documento establece los requerimientos funcionales y no funcionales, así como los modelos de análisis y diseño del sistema, con el fin de proporcionar una base sólida para su desarrollo e implementación.
+El sistema permitirá transformar datos electorales en información útil para la toma de decisiones, contribuyendo a mejorar la comprensión de los procesos electo
 
-El sistema busca facilitar el análisis de información electoral mediante herramientas de visualización de datos, permitiendo a los usuarios interpretar resultados y comparar propuestas de manera clara y eficiente.
 
 ---
 
@@ -81,18 +82,18 @@ El sistema busca facilitar el análisis de información electoral mediante herra
 ## I. GENERALIDADES DE LA EMPRESA
 
 ### 1. Nombre de la Empresa
-Proyecto académico desarrollado en la Universidad Privada de Tacna.
+Universidad Privada de Tacna - Proyecto Académico de Inteligencia de Negociosrales y la evaluación de propuestas de gobierno.
 
 ### 2. Visión
-Desarrollar soluciones tecnológicas basadas en inteligencia de negocios que faciliten la toma de decisiones.
+Ser referentes en la formación de ingenieros de sistemas a nivel nacional, destacando por el desarrollo de soluciones tecnológicas innovadoras basadas en inteligencia de negocios que contribuyan al análisis de datos y la toma de decisiones.
 
 ### 3. Misión
-Diseñar e implementar un sistema de dashboard interactivo para el análisis electoral.
+Formar Ingenieros de Sistemas competentes, emprendedores, con conocimientos científicos, formación humanística y responsabilidad social, capaces de desarrollar soluciones de software y tecnologías de información, como sistemas de análisis de datos y dashboards, que agreguen valor a las organizaciones y a la sociedad.
 
 ### 4. Organigrama
 
 <p align="center">
-  <img src="./img/organigrama.png" width="500"/>
+  <img src="./media/organigrama.png" width="500"/>
 </p>
 
 <p align="center"><em>Figura 1. Organigrama del equipo del proyecto</em></p>
@@ -101,43 +102,109 @@ Diseñar e implementar un sistema de dashboard interactivo para el análisis ele
 
 ## II. VISIONAMIENTO DE LA EMPRESA
 
-### 1. Descripción del Problema
+### 2.1. Descripción del Problema
 
-La información electoral en el Perú se encuentra distribuida en múltiples fuentes, dificultando su análisis y comprensión. Los planes de gobierno son extensos y poco comparables, lo que limita la toma de decisiones informadas.
+En el Perú, la información electoral y los planes de gobierno de los candidatos presidenciales se encuentran dispersos en múltiples fuentes, como portales institucionales, documentos oficiales y medios digitales. Esta situación dificulta que los ciudadanos, estudiantes y analistas puedan acceder a información clara, organizada y comparable.
 
+Durante las Elecciones Generales del Perú 2021, los planes de gobierno presentados por los candidatos fueron documentos extensos y técnicos, lo que limitó su comprensión y análisis por parte de los usuarios. Asimismo, los resultados electorales se presentan de manera separada, sin integrarse con el análisis de propuestas o indicadores que permitan evaluar su impacto y viabilidad.
 
-
-### 2. Objetivos de Negocios
-
-- Facilitar el acceso a información electoral  
-- Mejorar la toma de decisiones  
-- Promover el análisis de datos  
+Esta falta de integración y visualización dificulta la toma de decisiones informadas, generando una necesidad de herramientas que permitan organizar, analizar y representar la información de manera clara y accesible.
 
 
-
-### 3. Objetivos de Diseño
-
-- Implementar dashboards interactivos  
-- Diseñar una interfaz amigable  
-- Permitir análisis dinámico de datos  
+Por ello, se propone el desarrollo de un dashboard de análisis electoral que permita centralizar la información, facilitar la comparación de candidatos y mejorar la comprensión de los datos electorales.
 
 
 
-### 4. Alcance del Proyecto
 
-El sistema permitirá visualizar resultados electorales, comparar candidatos y analizar propuestas mediante dashboards interactivos.
+### 2.2. Objetivos de Negocios
+#### 2.2.1. Objetivo general
+
+Desarrollar un sistema de dashboard interactivo que permita analizar información electoral y evaluar planes de gobierno, facilitando la visualización de datos, la comparación de candidatos y la toma de decisiones informadas.
+#### 2.2.2. Objetivos específicos
+
+- Centralizar la información electoral proveniente de diversas fuentes en un solo sistema.
+- Facilitar la visualización de resultados electorales mediante gráficos e indicadores.
+- Permitir la comparación de candidatos presidenciales y sus propuestas de gobierno.
+- Analizar las propuestas según sectores como educación, salud, economía y seguridad.
+- Evaluar la viabilidad de las propuestas mediante indicadores como impacto y costo estimado.
+-	Proporcionar una herramienta accesible para estudiantes, ciudadanos y analistas.
 
 
-### 5. Viabilidad del Sistema
 
-El sistema es viable debido al uso de herramientas como Power BI y datos públicos.
+### 2.3. Objetivos de Diseño
+
+Diseñar un dashboard interactivo utilizando herramientas de inteligencia de negocios (como Power BI), que permita representar la información electoral mediante visualizaciones dinámicas, facilitando la exploración de datos, el análisis comparativo y la interpretación de resultados de manera intuitiva. 
 
 
 
-### 6. Información obtenida
+### 2.4. Alcance del Proyecto
 
-- ONPE  
-- Datos abiertos del Perú  
+El proyecto contempla el desarrollo de un dashboard interactivo basado en datos de las Elecciones Generales del Perú 2021.
+El sistema incluirá:
+- Visualización de resultados electorales
+- Comparación de candidatos presidenciales
+- Clasificación de propuestas por sectores
+- Análisis de impacto y viabilidad
+- Uso de gráficos interactivos y filtros dinámicos
+El sistema será implementado en un entorno web y estará orientado a fines académicos, por lo que no contempla integración en tiempo real con sistemas oficiales ni el manejo de datos sensibles.
+
+
+
+### 2.5. Viabilidad del Sistema
+
+El desarrollo del sistema de Dashboard de análisis electoral y evaluación de planes de gobierno - Perú 2021 es viable desde diferentes perspectivas, las cuales han sido analizadas en el estudio de factibilidad.
+
+#### 2.5.1.	Viabilidad Técnica
+El sistema es técnicamente viable debido a que se basa en el uso de herramientas ampliamente utilizadas en el análisis y visualización de datos, como Power BI, Microsoft Excel y Python. Estas tecnologías permiten procesar grandes volúmenes de información y generar dashboards interactivos de manera eficiente.
+
+
+Asimismo, el proyecto no requiere infraestructura compleja, ya que puede ser implementado en computadoras personales y desplegado mediante servicios en la nube, utilizando herramientas como AWS o Azure. Esto reduce la complejidad técnica y facilita su desarrollo progresivo.
+
+#### 2.5.2.	Viabilidad Económica
+Desde el punto de vista económico, el proyecto es viable, ya que presenta resultados favorables según el análisis financiero realizado.
+
+- Costo total del proyecto: S/ 8,275.70
+- Relación Beneficio/Costo (B/C): 1.33
+- Valor Actual Neto (VAN): S/ 2,242.94
+- Tasa Interna de Retorno (TIR): 4.6%
+
+La relación B/C mayor a 1 indica que los beneficios superan los costos. Asimismo, el VAN positivo demuestra que el proyecto genera valor económico después de recuperar la inversión inicial.
+Aunque la TIR es menor a la tasa de descuento (8%), el proyecto se considera viable debido a su enfoque académico y a los beneficios indirectos que genera, como la optimización del tiempo de análisis y el acceso a información organizada.
+
+#### 2.5.3.	Viabilidad Operativa
+
+El sistema es operativamente viable, ya que los usuarios objetivo (estudiantes, analistas y ciudadanos) cuentan con conocimientos básicos en el uso de herramientas digitales, lo que facilita su adopción.
+El dashboard será diseñado con una interfaz intuitiva, permitiendo la interacción mediante gráficos, filtros y reportes dinámicos. Además, el sistema puede mantenerse y actualizarse fácilmente sin requerir recursos adicionales significativos, lo que garantiza su funcionamiento continuo.
+
+#### 2.5.4.	Viabilidad Legal
+El proyecto es legalmente viable, ya que se basa en el uso de información pública proveniente de fuentes oficiales, como datos electorales y planes de gobierno.
+Asimismo, cumple con la normativa vigente en el Perú, especialmente con la Ley N° 29733 – Ley de Protección de Datos Personales, que regula el uso adecuado de la información.
+
+El sistema no recopila ni almacena datos sensibles de los usuarios, ya que su finalidad es la visualización y análisis de datos públicos. Además, se respetan las licencias de las herramientas utilizadas, como Power BI, Python y otras tecnologías de uso académico.
+
+#### 2.5.5.	Viabilidad Social
+El sistema presenta una alta viabilidad social, ya que contribuye a mejorar el acceso a la información electoral, facilitando su comprensión mediante visualizaciones claras y organizadas.
+
+Esto permite a los usuarios tomar decisiones más informadas, promoviendo la transparencia y fortaleciendo la participación ciudadana. Asimismo, el proyecto tiene un impacto positivo en el ámbito educativo, al servir como herramienta de aprendizaje en análisis de datos.
+
+#### 2.5.6.	Viabilidad Ambiental
+El proyecto es ambientalmente viable, ya que se basa en el uso de herramientas digitales, reduciendo el consumo de papel y otros recursos físicos.
+
+Además, al utilizar infraestructura tecnológica existente y servicios en la nube, se minimiza el impacto ambiental, promoviendo el uso eficiente de los recursos y contribuyendo a prácticas sostenibles.
+
+
+
+
+### 2.6. Información obtenida
+
+Durante el levantamiento de información se identificaron las siguientes necesidades:
+- Acceso a información electoral organizada y confiable
+- Dificultad para comparar planes de gobierno
+- Necesidad de visualizaciones claras y comprensibles
+- Uso de herramientas interactivas para análisis de datos
+- Acceso desde cualquier dispositivo con conexión a internet
+Asimismo, se identificó que los usuarios requieren una plataforma que integre resultados electorales con el análisis de propuestas, permitiendo una mejor comprensión del contexto político y social.
+
 
 
 
@@ -150,7 +217,7 @@ El sistema es viable debido al uso de herramientas como Power BI y datos públic
 El análisis electoral se realiza manualmente mediante documentos y reportes dispersos.
 
 <p align="center">
-  <img src="./img/proceso-actual.png" width="500"/>
+  <img src="./media/PROCESO ACTUAL.png" width="500"/>
 </p>
 
 <p align="center"><em>Figura 2. Proceso actual</em></p>
@@ -162,7 +229,7 @@ El análisis electoral se realiza manualmente mediante documentos y reportes dis
 El sistema automatiza el análisis mediante dashboards.
 
 <p align="center">
-  <img src="./img/proceso-propuesto.png" width="500"/>
+  <img src="./media/PROCESOPROPUESTO.png" width="500"/>
 </p>
 
 <p align="center"><em>Figura 3. Proceso propuesto</em></p>
@@ -175,13 +242,9 @@ El sistema automatiza el análisis mediante dashboards.
 
 ### a) Requerimientos Funcionales Inicial
 
-| Código | Requerimiento | Descripción |
-|------|-------------|------------|
-| RF01 | Visualizar resultados | Mostrar resultados electorales |
-| RF02 | Comparar candidatos | Comparación de candidatos |
-| RF03 | Mostrar propuestas | Visualización de propuestas |
-| RF04 | Filtrar información | Filtrado de datos |
-| RF05 | Visualizar gráficos | Gráficos interactivos |
+<p align="center">
+  <img src="./media/requerimiento inicial.png" width="500"/>
+</p>
 
 ---
 
