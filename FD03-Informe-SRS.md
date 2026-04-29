@@ -288,14 +288,14 @@ El sistema automatiza el análisis mediante dashboards.
 
 #### 5.2.1. Diagrama de paquetes
 <p align="center">
-  <img src="./img/paquetes.png" width="500"/>
+  <img src="./media/paquetes.png" width="500"/>
 </p>
 
 <p align="center"><em>Figura 4. Diagrama de paquetes</em></p>
 
 #### 5.2.2. Diagrama de Casos de Usos
 <p align="center">
-  <img src="./img/casos de usos.png" width="500"/>
+  <img src="./media/casos de usos.png" width="500"/>
 </p>
 
 <p align="center"><em>Figura 5. Diagrama de casos de usos</em></p>
