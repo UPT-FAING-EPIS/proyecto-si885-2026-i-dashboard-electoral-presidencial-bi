@@ -1,67 +1,67 @@
-# Dashboard de análisis electoral – Perú 2021
+# Dashboard de análisis de candidatos y planes de gobierno – Perú 2026
 
 ## Proyecto de Inteligencia de Negocios
 
-Este proyecto presenta el desarrollo de un dashboard interactivo orientado al análisis de los resultados de las Elecciones Generales del Perú 2021, así como a la evaluación de los planes de gobierno de los candidatos.
+Este proyecto presenta el desarrollo de un dashboard interactivo orientado al análisis de los candidatos presidenciales y la evaluación comparativa de sus planes de gobierno en el contexto de las Elecciones Generales del Perú 2026.
 
-El sistema busca organizar información electoral dispersa y convertirla en una herramienta visual que facilite su comprensión y análisis.
-
----
-
-## Descripción general
-
-El dashboard permite visualizar información relevante como resultados electorales, distribución de votos, comparación entre candidatos y análisis de propuestas de gobierno.  
-
-La solución se basa en herramientas de inteligencia de negocios, principalmente Power BI, que permiten representar los datos mediante gráficos e indicadores dinámicos.
+El sistema busca organizar información política dispersa y convertirla en una herramienta visual que facilite su comprensión, análisis y comparación.
 
 ---
 
-## Funcionalidades principales
+##  Descripción general
 
-- Visualización de resultados electorales
-- Filtrado de información por candidato, región y sector
-- Consulta de planes de gobierno
-- Clasificación de propuestas por sector
-- Comparación entre candidatos
-- Generación de indicadores
-- Generación de reportes visuales
+El dashboard permite visualizar información relevante sobre los candidatos presidenciales, incluyendo su perfil general y las propuestas contenidas en sus planes de gobierno.
+
+Asimismo, permite analizar y comparar dichas propuestas mediante su clasificación en dimensiones (social, económica, institucional y territorial-ambiental) y en temas como salud, educación, seguridad y economía.
+
+La solución se basa en herramientas de inteligencia de negocios, principalmente Power BI, que permiten representar los datos mediante gráficos, indicadores y filtros dinámicos.
 
 ---
 
-## Estructura del proyecto
+##  Funcionalidades principales
 
-El desarrollo del sistema se organizó en cuatro informes principales:
+- Visualización del perfil de candidatos presidenciales  
+- Filtrado de información por candidato, partido, dimensión y tema  
+- Consulta de planes de gobierno  
+- Clasificación de propuestas por dimensiones y sectores  
+- Comparación entre candidatos  
+- Generación de indicadores visuales  
+- Interacción dinámica mediante segmentadores (filtros)  
+- Generación de reportes visuales  
 
-### Informe 01 – Factibilidad
+---
+
+##  Estructura del proyecto
+
+###  Informe 01 – Factibilidad
 Se evaluó la viabilidad del proyecto en los siguientes aspectos:
 
-- Técnico: uso de Power BI, Excel y Python  
+- Técnico: uso de Power BI, Excel y herramientas de procesamiento de datos  
 - Económico: bajo costo y uso de recursos académicos  
 - Operativo: facilidad de uso del sistema  
 - Legal: uso de información pública  
 
 ---
 
-### Informe 02 – Visión del sistema
+###  Informe 02 – Visión del sistema
 
-Se identificó como problema principal la dispersión de la información electoral, lo que dificulta su análisis.  
+Se identificó como problema principal la dispersión de la información relacionada con los candidatos y sus planes de gobierno, lo que dificulta su análisis y comparación.
 
-La solución propuesta consiste en un dashboard que centraliza y presenta los datos de forma clara y organizada, permitiendo una mejor interpretación.
+La solución propuesta consiste en un dashboard que centraliza y presenta las propuestas de manera clara y organizada, permitiendo una mejor interpretación y análisis.
 
 ---
 
-### Informe 03 – Requerimientos
+###  Informe 03 – Requerimientos
 
-Se definieron los requerimientos del sistema:
-
-**Requerimientos funcionales:**
-- Visualizar resultados electorales  
-- Filtrar información  
+####  Requerimientos funcionales:
+- Visualizar información de candidatos  
+- Filtrar información por diferentes criterios  
 - Consultar planes de gobierno  
+- Clasificar propuestas por dimensiones y temas  
 - Comparar candidatos  
 - Generar indicadores y reportes  
 
-**Requerimientos no funcionales:**
+####  Requerimientos no funcionales:
 - Usabilidad  
 - Rendimiento  
 - Disponibilidad  
@@ -72,9 +72,9 @@ Se definieron los requerimientos del sistema:
 
 ---
 
-### Informe 04 – Arquitectura
+###  Informe 04 – Arquitectura
 
-El sistema fue diseñado utilizando el modelo arquitectónico 4+1, considerando:
+El sistema fue diseñado utilizando el modelo arquitectónico **4+1**, considerando:
 
 - Vista de casos de uso  
 - Vista lógica  
@@ -82,13 +82,11 @@ El sistema fue diseñado utilizando el modelo arquitectónico 4+1, considerando:
 - Vista de procesos  
 - Vista de despliegue  
 
-La arquitectura se basa en el procesamiento de datos (ETL) y su posterior visualización en Power BI.
+La arquitectura se basa en la integración de datos (ETL) y su posterior visualización en Power BI.
 
 ---
 
-## Atributos de calidad
-
-El sistema fue diseñado considerando los siguientes atributos:
+##  Atributos de calidad
 
 - Facilidad de uso para usuarios sin experiencia técnica  
 - Tiempo de respuesta adecuado en la carga de información  
@@ -99,11 +97,11 @@ El sistema fue diseñado considerando los siguientes atributos:
 
 ---
 
-## Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - Power BI  
 - Microsoft Excel  
-- Python  
+- Python (procesamiento de datos)  
 - GitHub  
 
 ---
@@ -117,11 +115,11 @@ El sistema fue diseñado considerando los siguientes atributos:
 
 ## Curso
 
-Inteligencia de Negocios  
+**Inteligencia de Negocios**  
 Universidad Privada de Tacna  
 
 ---
 
-## Observación final
+##  Observación final
 
-El proyecto tiene un enfoque académico, pero demuestra la utilidad de las herramientas de inteligencia de negocios para el análisis de información electoral y la toma de decisiones informadas.
+El proyecto tiene un enfoque académico, pero demuestra la utilidad de las herramientas de inteligencia de negocios para el análisis del perfil de los candidatos presidenciales y la evaluación comparativa de sus planes de gobierno, promoviendo una mejor comprensión de la información política y una toma de decisiones informada.

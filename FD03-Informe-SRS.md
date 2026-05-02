@@ -10,7 +10,7 @@
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto *“Dashboard de análisis electoral y evaluación de planes de gobierno - Perú 2021” ***
+**Proyecto *“Dashboard de análisis electoral y evaluación de planes de gobierno - Perú 2026” ***
 
 Curso: *Inteligencia de Negocios *
 

@@ -146,29 +146,29 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 ## 1. INTRODUCCIÓN
 
-En la actualidad, el acceso a la información electoral es fundamental para la toma de decisiones informadas por parte de los ciudadanos. Sin embargo, en el Perú, la información relacionada con los procesos electorales y los planes de gobierno suele encontrarse dispersa en múltiples fuentes, lo que dificulta su análisis y comprensión.
+En la actualidad, el acceso a la información política es fundamental para la toma de decisiones informadas por parte de los ciudadanos. Sin embargo, en el Perú, la información relacionada con los candidatos presidenciales y sus planes de gobierno suele encontrarse dispersa en múltiples fuentes, lo que dificulta su análisis, comparación y comprensión.
+En este contexto, surge la necesidad de implementar soluciones tecnológicas que permitan organizar, visualizar y analizar esta información de manera clara y accesible. El presente documento propone el desarrollo de un dashboard interactivo orientado al análisis de candidatos presidenciales y la evaluación de sus planes de gobierno en el marco de las Elecciones Generales del Perú 2026.
+A lo largo de este documento se describen los objetivos, alcance, usuarios, características y beneficios del sistema, con el fin de establecer una visión clara del proyecto y su impacto en el análisis de información política.
 
-En este contexto, surge la necesidad de implementar soluciones tecnológicas que permitan organizar, visualizar y analizar esta información de manera clara y accesible. El presente documento propone el desarrollo de un sistema de dashboard de análisis electoral orientado a facilitar la comparación de candidatos y sus propuestas.
-
-A lo largo de este documento se describen los objetivos, alcance, usuarios, características y beneficios del sistema, con el fin de establecer una visión clara del proyecto y su impacto en el análisis de datos electorales.
 
 ### 1.1 Propósito
 
-El propósito de este documento es definir una visión clara y estructurada del sistema Dashboard de análisis electoral y evaluación de planes de gobierno – Perú 2021, estableciendo sus objetivos, funcionalidades, alcance y beneficios esperados.
-
+El propósito de este documento es definir una visión clara y estructurada del sistema “Dashboard de análisis de candidatos presidenciales y evaluación de planes de gobierno-Perú 2026”, estableciendo sus objetivos, funcionalidades, alcance y beneficios esperados.
 Asimismo, busca servir como guía para el desarrollo del sistema, permitiendo que todos los involucrados tengan una comprensión común del proyecto y sus alcances.
 
 ### 1.2 Alcance
 
-El sistema contempla el desarrollo de un dashboard interactivo que permitirá a los usuarios visualizar resultados electorales, comparar candidatos y analizar sus propuestas de gobierno.
-
+El sistema contempla el desarrollo de un dashboard interactivo que permitirá a los usuarios analizar el perfil de los candidatos presidenciales y comparar sus planes de gobierno.
 El sistema incluirá funcionalidades como:
-- Visualización de resultados electorales
-- Comparación de propuestas por sector
-- Análisis de impacto y viabilidad
-- Generación de reportes
+
+	Visualización del perfil de candidatos (datos personales, características socioeconómicas y trayectoria)
+- Clasificación de propuestas por dimensiones (social, económica, institucional y territorial-ambiental)
+- 	Comparación de propuestas por temas como salud, educación, seguridad y economía
+- 	Uso de filtros dinámicos para analizar información por candidato, partido o dimensión
+- 	Visualización de indicadores que permitan identificar prioridades y enfoques de los planes de gobierno
 
 No se contempla la integración con sistemas oficiales en tiempo real ni el uso de datos sensibles, ya que el proyecto se desarrolla en un entorno académico.
+
 
 ### 1.3 Definiciones, Siglas y Abreviaturas
 
@@ -179,15 +179,14 @@ No se contempla la integración con sistemas oficiales en tiempo real ni el uso 
 
 ### 1.4 Referencias
 
-El presente documento se basa en el informe de factibilidad desarrollado previamente, así como en información proveniente de fuentes oficiales como la ONPE y portales de datos abiertos relacionados con las Elecciones Generales del Perú 2021.
+El presente documento se basa en el informe de factibilidad desarrollado previamente, así como en información proveniente de fuentes oficiales como la ONPE y portales de datos abiertos relacionados con las Elecciones Generales del Perú 2026.
 
 ### 1.5 Visión General
 
-El sistema Dashboard de análisis electoral es una herramienta digital orientada a mejorar el acceso y comprensión de la información electoral en el Perú.
+El sistema propuesto es una herramienta digital orientada a mejorar el acceso y comprensión de la información política en el Perú.
+Su finalidad es proporcionar una plataforma que permita analizar el perfil de los candidatos presidenciales y comparar sus planes de gobierno de manera clara, estructurada y visual.
+A través de esta solución, se busca transformar información compleja en conocimiento accesible, facilitando el análisis de propuestas políticas, promoviendo la transparencia y contribuyendo a una toma de decisiones informada.
 
-Su finalidad es proporcionar una plataforma que permita analizar resultados, comparar candidatos y evaluar propuestas de gobierno de manera clara y visual.
-
-A través de esta solución, se busca fortalecer la transparencia, facilitar el análisis de datos y promover una toma de decisiones informada.
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
@@ -196,21 +195,21 @@ A través de esta solución, se busca fortalecer la transparencia, facilitar el 
 
 ### 2.1 Oportunidad de negocio
 
-El crecimiento del uso de herramientas digitales y plataformas de análisis de datos representa una oportunidad significativa para el desarrollo de soluciones orientadas al análisis electoral. En el Perú, cada proceso electoral genera una gran cantidad de información que, si bien es pública, no siempre se presenta de forma clara, integrada y fácil de analizar.
+El crecimiento del uso de herramientas digitales y plataformas de análisis de datos representa una oportunidad significativa para el desarrollo de soluciones orientadas al análisis político. En el Perú, los planes de gobierno contienen información valiosa, pero no siempre se presentan de forma clara, integrada y fácil de comparar.
+En este contexto, existe una oportunidad para desarrollar un dashboard que permita centralizar, organizar y visualizar las propuestas de los candidatos, facilitando su análisis comparativo.
+Asimismo, el proyecto se alinea con la creciente demanda de herramientas de Business Intelligence (BI), que permiten transformar datos en información útil para la toma de decisiones. Esto no solo aporta valor académico, sino que también tiene potencial aplicación en ámbitos educativos, institucionales y de análisis político.
 
-En este contexto, existe una oportunidad para desarrollar un dashboard que permita centralizar, organizar y visualizar datos electorales, facilitando la comprensión de los resultados y la comparación de propuestas de los candidatos.
-
-Asimismo, el proyecto se alinea con la creciente demanda de herramientas de Business Intelligence (BI), las cuales permiten transformar datos en información útil para la toma de decisiones. Esto no solo aporta valor académico, sino que también abre la posibilidad de aplicar este tipo de soluciones en ámbitos institucionales, educativos y de análisis político.
 
 ### 2.2 Definición del problema
 
-Actualmente, la información electoral en el Perú se encuentra distribuida en diversas plataformas, documentos oficiales y fuentes digitales, lo que dificulta su acceso, análisis y comprensión por parte de los usuarios.
+Actualmente, la información relacionada con los candidatos presidenciales y sus planes de gobierno en el Perú se encuentra distribuida en diversas fuentes, lo que dificulta su acceso, análisis y comparación.
 
-Los planes de gobierno de los candidatos suelen ser extensos y técnicos, lo que limita su comparación directa. Asimismo, los resultados electorales se presentan de manera separada, sin integrarse con el análisis de propuestas o indicadores de impacto.
+Los planes de gobierno suelen ser documentos extensos, técnicos y poco estandarizados, lo que limita su interpretación y la comparación directa entre candidatos. Además, no existe una herramienta que integre el perfil de los candidatos con el análisis estructurado de sus propuestas.
 
-Esta situación genera una brecha en la capacidad de los ciudadanos, estudiantes y analistas para comprender el panorama electoral de manera integral, dificultando la toma de decisiones informadas.
+Esta situación genera una brecha en la capacidad de los ciudadanos, estudiantes y analistas para comprender de manera integral las prioridades, enfoques y estrategias de los partidos políticos.
 
-Por ello, se propone el desarrollo de un dashboard de análisis electoral que permita centralizar la información, visualizar resultados y comparar propuestas de manera clara, organizada y accesible.
+Por ello, se propone el desarrollo de un dashboard interactivo que permita centralizar la información, organizar las propuestas y facilitar su análisis comparativo mediante visualizaciones claras y herramientas dinámicas de exploración.
+
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
